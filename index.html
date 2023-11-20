@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styled.css">
+    <title>Jogo da Velha</title>
+<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=aAzTeS-jPHJzyXqxyHaWFPr6HZtiaWmYsJ3HyZF1ZfD0jU4ZNjmbF3tNwQuSsTTyxczxaFuQ5kN46pRMu2Vhid6JzftHlCphf_CAx74oDcMO2ltA5np_-dPH0G2m-auihhgAq8at6dOPU2l3qs1R4-ctVwEDOStMElgIWaQf8TS8k8X7yb2CPrAme_UaHVuhUvoni-b41U2pyxhTyDWRYVjiU2sWTdTEJdHDB14N15iHfNj8gLoDOF-TbLwpKlQgdymNduqNgH_-wmh3xpXZIQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvODUyOTkyMzI5NTU5MzEwNDE3LzExNzYxNTI0MjkwODgyMjMzMTMvaW5kZXguaHRtbD9leD02NTZkZDQ0ZSZpcz02NTViNWY0ZSZobT1mMWM3MmFkMWViYjRhMGIxOTVjYzNkYmY3ZjY0OGQ0ZjliNzkyMjRkMDIxN2ExNGRiNzcyMTE0MTNhMzM4YmM4Jg"/></head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <div>
+        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div>
+        <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div>
+        <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    </div>
+    <div class="jogador">
+        <label >
+            Jogador:
+        </label>
+        <label id="jogador-selecionado">
+
+        </label>
+    </div>
+    <div class="vencedor">
+        <label >
+            Vencedor:
+        </label>
+        <label id="vencedor-selecionado">
+
+        </label>
+    </div>
+    <div>
+        <button onclick="reiniciar()">
+            Reiniciar
+        </button>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
